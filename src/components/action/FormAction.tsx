@@ -1,6 +1,15 @@
 const FormAction = () => {
+    const formAction = (formData: any) => {
+        const userData = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            password: formData.get('password'),
+        }
+        
+        console.log(formData)
+    }
     return (
-        <form>
+        <form action={formAction}>
             <label htmlFor="name">Name</label>
             <input
                 type="text"
