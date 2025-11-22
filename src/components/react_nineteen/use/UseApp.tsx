@@ -2,12 +2,13 @@
 // import {Suspense} from "react";
 // import UseFetchTodo from "./UseFetchTodo.tsx";
 
-import Theme from "./Theme.tsx";
+// import Theme from "./Theme.tsx";
+
 
 const UseApp = () => {
     return (
         <div className="flex justify-center items-center mt-[10rem]">
-            <Theme />
+            {/*<Theme />*/}
             {/*<FetchTodo />*/}
             {/*<Suspense>*/}
             {/*    <UseFetchTodo />*/}

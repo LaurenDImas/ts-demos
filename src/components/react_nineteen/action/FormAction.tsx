@@ -5,8 +5,8 @@ const FormAction = () => {
             email: formData.get('email'),
             password: formData.get('password'),
         }
-        
-        console.log(formData)
+
+        console.log(userData)
     }
     return (
         <form action={formAction}>
